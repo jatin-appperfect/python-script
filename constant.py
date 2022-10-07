@@ -1,4 +1,4 @@
-from platform import platform
+
 import yaml
 from yaml import Loader
 
