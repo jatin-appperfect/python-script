@@ -22,7 +22,7 @@ class Test():
 
     def __init__(self):
         print(">> Setup...")
-        self.driver = webdriver.Remote(command_executor="http://127.0.0.1:4723/wd/hub", desired_capabilities=desired_capabilities)
+        self.driver = webdriver.Remote(command_executor="http://115.178.102.190:4723/wd/hub", desired_capabilities=desired_capabilities)
 
         print("Driver : ", self.driver)
 
