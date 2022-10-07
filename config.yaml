@@ -1,0 +1,22 @@
+
+IOS:
+  - platformName: iOS
+  - platformVersion: "13.3"
+  - deviceName: iPhone 11
+  - automationName: XCUITest
+  - app: /Users/appperfect/Desktop/JATIN/Appium/IOS/TestApp2.ap
+
+
+ANDROID:
+  - platformName: Android
+  - platformVersion: "8.1.0"
+  - deviceName: Android
+  - automationName: uiautomator2
+  - app: /Users/appperfect/Desktop/JATIN/Appium/Android/bbc.apk
+  - appPackage: bbc.mobile.news.uk
+  - appActivity: io.appium.android.apis.ApiDemos
+  - noReset: True
+
+
+noReset: True
+autoAcceptAlerts: False

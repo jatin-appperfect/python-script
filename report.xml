@@ -1,0 +1,21 @@
+
+<?xml version="1.0" ?>
+<testsuite name="main.Test_Class-20221007104633" tests="6" time="24.767" failures="0" errors="0">
+	<testcase classname="main.Test_Class" name="test1" time="4.051"/>
+	<testcase classname="main.Test_Class" name="test2" time="7.137"/>
+	<testcase classname="main.Test_Class" name="test3" time="2.576"/>
+	<testcase classname="main.Test_Class" name="test4" time="4.273"/>
+	<testcase classname="main.Test_Class" name="test5" time="2.527"/>
+	<testcase classname="main.Test_Class" name="test6" time="4.203"/>
+	<system-out>
+        <![CDATA[
+            >> first test done
+            >> second test done
+            >> scrolling down...
+            >> input text...
+            >> third test done
+            >> scrolling up...
+        ]]>
+    </system-out>
+	<system-err><![CDATA[]]></system-err>
+</testsuite>
