@@ -4,7 +4,7 @@ IOS:
   - platformVersion: "13.3"
   - deviceName: iPhone 11
   - automationName: XCUITest
-  - app: /Users/appperfect/Desktop/JATIN/Appium/IOS/TestApp2.ap
+  - app: TestApp2.ap
 
 
 ANDROID:
