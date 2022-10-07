@@ -2,7 +2,7 @@
 import yaml
 from yaml import Loader
 
-with open("/Users/appperfect/Desktop/JATIN/Appium/scripts/config.yaml", "r") as yaml_file:
+with open("config.yaml", "r") as yaml_file:
     data = yaml.load(yaml_file, Loader=Loader)
     
     IOS_PLATFORM_NAME = data["IOS"][0]["platformName"]
