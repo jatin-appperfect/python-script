@@ -11,7 +11,7 @@ if __name__ == "__main__":
         unittest.defaultTestLoader.loadTestsFromTestCase(Test_Class)
     ])
 
-    with open("/Users/appperfect/Desktop/JATIN/Appium/scripts/report.xml", "w") as report:
+    with open("report.xml", "w") as report:
         test_runner = xmlrunner.XMLTestRunner(report)
         test_runner.run(test_suit)
 
